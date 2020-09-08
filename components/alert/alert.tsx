@@ -1,7 +1,8 @@
-import styles from "./alert.module.css";
+import styles from "./alert.module.scss";
 import cn from "classnames";
+import { AppProps } from "next/app";
 
-export default function Alert({ children, type }) {
+export default function Alert({ children, type }: AppProps) {
   return (
     <div
       className={cn({
