@@ -8,9 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "next": "9.3.5",
+    "node-sass": "^4.14.1",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "react": "16.13.1",
@@ -19,5 +21,12 @@
     "remark-html": "^12.0.0",
     "sass": "^1.26.10",
     "tailwindcss": "^1.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "@types/react": "^16.9.49",
+    "postcss": "^7.0.32",
+    "postcss-loader": "^4.0.0",
+    "typescript": "^4.0.2"
   }
 }
